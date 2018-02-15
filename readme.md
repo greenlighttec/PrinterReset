@@ -16,7 +16,7 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\SWD\PRINTENUM
 
 Call this script from powershell directly as admin by running
-(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/DrDrrae/Powershell/master/Printers/print-reset.ps1') |iex
+(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/greenlighttec/PrinterReset/master/print-reset.ps1') |iex
 Reset-Printers -full -force
 -OR-
 Reset-Printers -light -force
