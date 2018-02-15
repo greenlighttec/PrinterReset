@@ -7,10 +7,10 @@ $ScriptVersion = "8"
 
 
 #Windows 7 and Windows 2008 R2 registry
-(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/DrDrrae/Powershell/master/Printers/registry/Windows7%26Server2008R2.ps1') | Invoke-Expression
+(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/greenlighttec/PrinterReset/master/registry/Windows7%26Server2008R2.ps1') | Invoke-Expression
 
 #Windows 2012 R2 registry
-(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/DrDrrae/Powershell/master/Printers/registry/AMD_64_6_3_9600.ps1') | Invoke-Expression
+(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/greenlighttec/PrinterReset/master/registry/AMD_64_6_3_9600.ps1') | Invoke-Expression
 
 #Windows 10 1607
 #. ".\registry\x86_10_0_14393.ps1"
@@ -18,11 +18,11 @@ $ScriptVersion = "8"
 
 #Windows 10 1703
 #. ".\registry\x86_10_0_15063.ps1"
-(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/DrDrrae/Powershell/master/Printers/registry/AMD_64_10_0_15063.ps1') | Invoke-Expression
+(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/greenlighttec/PrinterReset/master/registry/AMD_64_10_0_15063.ps1') | Invoke-Expression
 
 #Windows 10 1709
 #. ".\registry\x86_10_0_16299.ps1"
-(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/DrDrrae/Powershell/master/Printers/registry/AMD_64_10_0_16299.ps1') | Invoke-Expression
+(new-object Net.WebClient).DownloadString('https://raw.githubusercontent.com/greenlighttec/PrinterReset/master/registry/AMD_64_10_0_16299.ps1') | Invoke-Expression
 
 
 function Writeto-ExecutionLog ([Parameter(Mandatory=$true, Position=0, ValueFromPipeline=$true)][String[]][AllowEmptyString()]$InputObject)
