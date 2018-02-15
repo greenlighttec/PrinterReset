@@ -1,2 +1,0 @@
-# PrinterReset
-Reset Print Spooler
