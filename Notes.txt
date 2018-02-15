@@ -1,0 +1,58 @@
+$PRINT_x86_6_1_7600_client = @"
+$PRINT_AMD64_6_1_7600_client = @"
+$PRINT_AMD64_6_1_7601_client = @"
+$PRINT_AMD64_6_1_7600_server = @"
+$PRINT_AMD64_6_1_7601_server = @"
+$Services_6_1 = @"
+$Monitors_6_1_client = @"
+$Monitors_6_1_Server = @"
+
+
+$MONITORS_AMD64_6_1_7601_server = $Monitors_6_1_Server
+$MONITORS_AMD64_6_1_7600_server = $Monitors_6_1_Server
+$MONITORS_AMD64_6_1_7601_client = $Monitors_6_1_client
+$MONITORS_AMD64_6_1_7600_client = $Monitors_6_1_client
+$MONITORS_x86_6_1_7601_client = $Monitors_6_1_client
+$MONITORS_x86_6_1_7600_client = $Monitors_6_1_client
+
+$Winprint_x86_6_1 = @"
+
+
+
+$PRINT_AMD64_6_3_9600_server = @"
+$Services_6_3 = @"
+$SERVICES_AMD64_6_3_9600_server = $Services_6_3
+$Monitors_6_3_server =@"
+$MONITORS_AMD64_6_3_9600_server = $Monitors_6_3_server
+$winprint_AMD64_6_3 = @"
+$WINPRINT_AMD64_6_3_9600_server = $winprint_AMD64_6_3
+
+
+# Windows 10.0.15063
+
+#HKLM/SYSTEM/CurrentControlSet/Control/Print
+$PRINT_AMD64_10_0_15063_client = @"
+#HKLM/SYSTEM/CurrentControlSet/Services/Spooler
+$Services_6_3 = @"
+$SERVICES_AMD64_10_0_15063_client = $Services_6_3
+#HKLM/SYSTEM/CurrentControlSet/Control/Print/Monitors
+$Monitors_6_3_client =@"
+$MONITORS_AMD64_10_0_15063_client = $Monitors_6_3_client
+#Winprint Print processor HKLM/SYSTEM/CurrentControlSet/Control/Print/environments/(machine architecture)/winprint
+$winprint_AMD64_6_3 = @"
+$WINPRINT_AMD64_10_0_15063_client = $winprint_AMD64_6_3
+
+
+# Windows 10.0.16299
+$WINPRINT_AMD64_10_0_16299_client @"
+$PRINT_AMD64_10_0_16299_client = @"
+$Services_6_3 = @"
+$SERVICES_AMD64_10_0_16299_client = $Services_6_3
+$Monitors_6_3_client =@"
+$MONITORS_AMD64_10_0_16299_client = $Monitors_6_3_client
+$winprint_AMD64_6_3 = @"
+$WINPRINT_AMD64_10_0_16299_client = $winprint_AMD64_6_3
+
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print]
